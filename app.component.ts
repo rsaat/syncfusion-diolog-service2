@@ -8,9 +8,10 @@ import { SignupComponent } from './form-component/signup.component';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html'
+  
 })
 export class AppComponent {
-  @ViewChild(TemplateRef, null) tpl: TemplateRef<any>;
+
 
   constructor(private dialog: DialogService) { }
 
